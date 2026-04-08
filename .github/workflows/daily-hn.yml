@@ -2,7 +2,7 @@ name: Daily HN Vibes
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 22:00 UTC daily
+    - cron: '0 2 * * *'    # 6pm Pacific (PDT, UTC-7) = 02:00 UTC
   workflow_dispatch:         # allow manual trigger
 
 jobs:

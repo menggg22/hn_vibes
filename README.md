@@ -6,7 +6,7 @@ Hacker News captures the pulse of the builder community better than anywhere els
 
 ## What's in each entry
 
-Every day at 22:00 UTC, the log captures:
+Every day at 6pm Pacific, the log captures:
 
 **Top of the file** — quick read:
 - **Top themes** — what dominated today
@@ -22,6 +22,10 @@ Every day at 22:00 UTC, the log captures:
 - **Show HN momentum** — older posts still climbing
 - **Idea gaps** — Ask HN questions with traction, unsolved problems
 - **Suggested deep dives** — 2-3 links worth your time today, with a specific reason why
+
+**Personal Signal** — ml-infra / on-device ML / agent-systems filter:
+- **ml-infra & on-device ML** — trend + links for ML infrastructure, on-device inference, model serving, fine-tuning
+- **agent-systems** — trend + links for agent orchestration, memory, tooling, multi-agent systems
 
 **Classification table** — every story categorized:
 
