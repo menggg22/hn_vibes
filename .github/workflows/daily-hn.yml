@@ -1,0 +1,35 @@
+name: Daily HN Vibes
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 22:00 UTC daily
+  workflow_dispatch:         # allow manual trigger
+
+jobs:
+  fetch-and-log:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch HN and generate log
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.HNVIBE }}
+        run: node scripts/fetch-hn.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "hn-vibes-bot"
+          git config user.email "myuanli.217@gmail.com"
+          git add vibes/
+          git diff --staged --quiet || git commit -m "HN vibes: $(date -u +%Y-%m-%d)"
+          git push
