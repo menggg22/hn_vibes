@@ -95,7 +95,9 @@ Generate a daily log entry in EXACTLY this markdown format (no extra text before
 
 **Show HN lesson**: [what the highest-momentum Show HN did right — 1 sentence about the format/framing]
 
-## Summary
+---
+
+## 🔥 Trending — What's climbing today
 
 **AI mood**: [one sentence — excited / skeptical / fatigued / anxious — with evidence from today's data]
 
@@ -108,10 +110,15 @@ Generate a daily log entry in EXACTLY this markdown format (no extra text before
 - [Title](https://news.ycombinator.com/item?id=ID) — Xc / Ypts — [why controversial]
 - [Title](https://news.ycombinator.com/item?id=ID) — Xc / Ypts — [why controversial]
 
-**Builder pulse** (Show HN shipped in last 24h — grouped by theme):
-[Group fresh Show HNs into 1-3 themes. For each theme:]
-Theme: **[theme name]** — [1 sentence on why multiple builders are building this right now]
-- [Title](https://news.ycombinator.com/item?id=ID) — [what it does, Xpts Yh ago]
+---
+
+## 🔨 Builder Pulse — What shipped in the last 24h
+
+[Cover all notable fresh Show HNs. Group into themes when multiple builders converge on the same area; list standalone interesting projects individually.]
+**[theme name]** — [1 sentence on why multiple builders are building this right now]
+- [Title](https://news.ycombinator.com/item?id=ID) — Xpts Yh ago — [what it does]
+[standalone project: no theme wrapper]
+- [Title](https://news.ycombinator.com/item?id=ID) — Xpts Yh ago — [what it does and why it's interesting]
 [If no fresh Show HNs, note that and use momentum posts instead]
 
 **Show HN momentum** (older but still climbing):
@@ -121,26 +128,26 @@ Theme: **[theme name]** — [1 sentence on why multiple builders are building th
 - [Title](https://news.ycombinator.com/item?id=ID) — [what gap it reveals]
 - [Title](https://news.ycombinator.com/item?id=ID) — [what gap it reveals]
 
-**Suggested deep dives**:
-- [Title](https://news.ycombinator.com/item?id=ID) — [specific reason to read this today]
-- [Title](https://news.ycombinator.com/item?id=ID) — [specific reason to read this today]
-- [Title](https://news.ycombinator.com/item?id=ID) — [specific reason to read this today]
+---
 
-## Personal Signal
+## 🔭 Depth — ml-infra / on-device ML / agent-systems
 
-*ml-infra / on-device ML / agent-systems — what's the trend and what sparks curiosity.*
+*What's the trend and what sparks curiosity.*
 
-**ml-infra & on-device ML**:
-[1-2 sentences on the trend. Then list relevant stories with links:]
+**ml-infra & on-device ML**: [1-2 sentences on the trend.]
 - [Title](https://news.ycombinator.com/item?id=ID) — Xpts — [one line spark: what's interesting or worth exploring]
 
-**agent-systems**:
-[1-2 sentences on the trend. Then list relevant stories with links:]
+**agent-systems**: [1-2 sentences on the trend.]
 - [Title](https://news.ycombinator.com/item?id=ID) — Xpts — [one line spark: what's interesting or worth exploring]
+
+**Deep dives**:
+- [Title](https://news.ycombinator.com/item?id=ID) — [specific reason to read this today]
+- [Title](https://news.ycombinator.com/item?id=ID) — [specific reason to read this today]
+- [Title](https://news.ycombinator.com/item?id=ID) — [specific reason to read this today]
 
 ---
 
-## Classification
+## 📊 Classification
 
 **[category]: N stories — avg Xpts** | **[category]: N — avg Xpts** | ... (sorted by count desc)
 
