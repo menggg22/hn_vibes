@@ -6,6 +6,8 @@ So that’s the purpose of this log: to track that pulse every day, the mood, th
 
 Feel free to browse through it, or follow along, to see what’s new today.
 
+**[→ Weekly editorial at menggg.me/vibes](https://menggg.me/vibes/)**
+
 **[→ Browse today's entries](https://github.com/menggg22/hn_vibes/tree/main/vibes/2026/daily)**
 
 The front page score shows what’s popular. The builder pulse shows what’s being built right now. The classification table lets you scan across weeks and spot patterns—what keeps resurfacing, what’s rising, and what’s fading. The Show HN fresh/momentum split is the key insight: a Show HN with 900pts posted 3 days ago tells you nothing about today's builder energy. A Show HN with 30pts posted 2 hours ago tells you what someone decided to ship tonight.
